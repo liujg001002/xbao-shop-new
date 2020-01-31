@@ -12,5 +12,11 @@
     <artifactId>xbao-shop-common</artifactId>
     <packaging>jar</packaging>
 
-
+    <dependencies>
+        <!-- 集成redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+    </dependencies>
 </project>
